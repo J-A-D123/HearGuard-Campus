@@ -1,0 +1,189 @@
+{
+  "dataset": "HearGuard Campus 校园安全聆听问卷（公开汇总）",
+  "sample_size": 126,
+  "sampling": "非概率便利抽样；包含待核验的学校或年级填写，不能代表全国大学生总体。",
+  "data_version": "2026-10 public aggregate",
+  "metrics": {
+    "daily_2h_plus": 69,
+    "noise_often": 38,
+    "any_symptom": 83,
+    "no_education": 78
+  },
+  "distributions": {
+    "daily": [
+      {
+        "label": "少于1小时",
+        "count": 18
+      },
+      {
+        "label": "1—2小时",
+        "count": 39
+      },
+      {
+        "label": "2—4小时",
+        "count": 37
+      },
+      {
+        "label": "4—6小时",
+        "count": 19
+      },
+      {
+        "label": "6小时以上",
+        "count": 13
+      }
+    ],
+    "continuous": [
+      {
+        "label": "少于30分钟",
+        "count": 16
+      },
+      {
+        "label": "30—60分钟",
+        "count": 59
+      },
+      {
+        "label": "1—2小时",
+        "count": 34
+      },
+      {
+        "label": "2小时以上",
+        "count": 17
+      }
+    ],
+    "noise": [
+      {
+        "label": "从不",
+        "count": 8
+      },
+      {
+        "label": "偶尔",
+        "count": 54
+      },
+      {
+        "label": "有时",
+        "count": 26
+      },
+      {
+        "label": "经常",
+        "count": 30
+      },
+      {
+        "label": "总是",
+        "count": 8
+      }
+    ],
+    "education": [
+      {
+        "label": "是",
+        "count": 39
+      },
+      {
+        "label": "否",
+        "count": 78
+      },
+      {
+        "label": "不确定",
+        "count": 9
+      }
+    ],
+    "headphone": [
+      {
+        "label": "入耳式",
+        "count": 76
+      },
+      {
+        "label": "半入耳式",
+        "count": 28
+      },
+      {
+        "label": "头戴式（封闭式）",
+        "count": 12
+      },
+      {
+        "label": "开放式",
+        "count": 6
+      },
+      {
+        "label": "骨传导",
+        "count": 3
+      },
+      {
+        "label": "视场景而定",
+        "count": 1
+      }
+    ],
+    "purpose": [
+      {
+        "label": "听音乐",
+        "count": 120
+      },
+      {
+        "label": "短视频",
+        "count": 94
+      },
+      {
+        "label": "游戏",
+        "count": 73
+      },
+      {
+        "label": "通话",
+        "count": 70
+      },
+      {
+        "label": "网课",
+        "count": 40
+      },
+      {
+        "label": "降噪",
+        "count": 1
+      }
+    ],
+    "symptoms": [
+      {
+        "label": "耳痛或不适",
+        "count": 51
+      },
+      {
+        "label": "听觉疲劳",
+        "count": 32
+      },
+      {
+        "label": "耳闷",
+        "count": 27
+      },
+      {
+        "label": "耳鸣",
+        "count": 17
+      }
+    ],
+    "reminder": [
+      {
+        "label": "愿意",
+        "count": 103
+      },
+      {
+        "label": "视情况而定",
+        "count": 16
+      },
+      {
+        "label": "不愿意",
+        "count": 7
+      }
+    ],
+    "screening": [
+      {
+        "label": "愿意",
+        "count": 111
+      },
+      {
+        "label": "视情况而定",
+        "count": 11
+      },
+      {
+        "label": "不愿意",
+        "count": 4
+      }
+    ]
+  },
+  "privacy": "仅包括全样本汇总计数；不含个体层面记录，也不提供学校、年级、性别等交叉筛选。"
+}

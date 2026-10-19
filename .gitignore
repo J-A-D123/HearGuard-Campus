@@ -1,0 +1,19 @@
+# Python 虚拟环境
+.venv/
+
+# Python 缓存
+__pycache__/
+*.pyc
+
+# macOS 文件
+.DS_Store
+
+# 本地环境变量和密钥
+.env
+.streamlit/secrets.toml
+
+# 原始问卷，暂不公开上传
+data/工作簿1.xlsx
+
+# 旧依赖目录
+requirements_backup/
